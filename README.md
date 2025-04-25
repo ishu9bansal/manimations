@@ -30,6 +30,20 @@ To render a scene:
 
 ## ⚙️ Project Setup
 
+
+### 📥 Install and Upgrade `pip`
+
+Before setting up the environment, make sure you have the latest version of `pip`:
+
+```bash
+python3 -m ensurepip --upgrade
+python3 -m pip install --upgrade pip
+```
+
+This ensures that your package installer is up to date and avoids common compatibility issues.
+
+---
+
 Use [`uv`](https://github.com/astral-sh/uv) for managing the Python environment and dependencies. Here’s how to get started:
 
 ### 1. Install `uv`
